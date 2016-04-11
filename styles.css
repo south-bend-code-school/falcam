@@ -1,0 +1,114 @@
+/*
+#E9AB17 Bee Yellow
+#87AFC7 Colombia Blue
+#95B9C7 Baby Blue
+*/
+
+/*-----Header Fonts------*/
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:700); /*font-family: 'Playfair Display SC', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Bangers); /*font-family: 'Bangers', cursive;*/
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker); /*font-family: 'Permanent Marker', cursive;*/
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great); /*font-family: 'Fredericka the Great', cursive;*/
+/*-----Body Fonts------*/
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display); /*font-family: 'Playfair Display', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Gentium+Basic); /*font-family: 'Gentium Basic', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Nixie+One); /*font-family: 'Nixie One', cursive;*/
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+}
+
+h2, p {
+  font-family: 'Playfair Display', serif;
+}
+
+#heroimage {
+  background-image: url("./images/falcon1-free.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  height: 600px;
+  color:white;
+  text-align: center;
+}
+
+#heroimage h1 {
+  margin:0px;
+  font-size: 4em;
+  padding-top: 20%;
+}
+
+#heroimage p {
+  font-size: 1em;
+}
+
+#livestream {
+  padding: 3% 0;
+  background-color: black;
+  color: white;
+}
+
+#facts {
+  width:100%;
+  height: 400px;
+  background: white url('./images/falcon2-free.jpg') no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#wingSpan{
+  width:100%;
+  height: 600px;
+  background: white url('./images/FalWingSpan.png') no-repeat center;
+  background-size: contain;
+  color: #E9AB17;
+
+}
+
+
+.content {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.content p {
+  margin: 0px;
+  padding-bottom: .25em;
+}
+.content h1 {
+   font-size: 3em;
+   margin: 0px;
+   padding: .25em;
+
+}
+
+.content h2 {
+  font: 1.5em;
+  font-style: italic;
+  color: lightgray;
+  margin-top: 0px;
+}
+
+.blue {
+  background-color: #87AFC7;
+  color: white;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: #E9AB17;
+  color:white;
+}
+
+
+.falVHaw {
+  width: 20%;
+  height: 20%;
+}
