@@ -14,67 +14,21 @@
 @import url(https://fonts.googleapis.com/css?family=Gentium+Basic); /*font-family: 'Gentium Basic', serif;*/
 @import url(https://fonts.googleapis.com/css?family=Nixie+One); /*font-family: 'Nixie One', cursive;*/
 
+/*---General Body Stylings---*/
 body {
   margin: 0px;
 }
-
 h1 {
   font-family: 'Playfair Display SC', serif;
 }
-
 h2, p {
   font-family: 'Playfair Display', serif;
 }
-
-#heroimage {
-  background-image: url("./images/falcon1-free.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top center;
-  height: 600px;
-  color:white;
-  text-align: center;
-}
-
-#heroimage h1 {
-  margin:0px;
-  font-size: 4em;
-  padding-top: 20%;
-}
-
-#heroimage p {
-  font-size: 1em;
-}
-
-#livestream {
-  padding: 3% 0;
-  background-color: black;
-  color: white;
-}
-
-#facts {
-  width:100%;
-  height: 400px;
-  background: white url('./images/falcon2-free.jpg') no-repeat top center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#wingSpan{
-  width:100%;
-  height: 600px;
-  background: white url('./images/FalWingSpan.png') no-repeat center;
-  background-size: contain;
-  color: #E9AB17;
-
-}
-
 
 .content {
     text-align: center;
     padding-bottom: 1em;
 }
-
 .content p {
   margin: 0px;
   padding-bottom: .25em;
@@ -82,8 +36,7 @@ h2, p {
 .content h1 {
    font-size: 3em;
    margin: 0px;
-   padding: .25em;
-
+   padding-top: .25em;
 }
 
 .content h2 {
@@ -107,7 +60,51 @@ h2, p {
   color:white;
 }
 
+/*-----Main Image Div-----*/
+#heroimage {
+  background-image: url("./images/falcon1-free.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  height: 600px;
+  color:white;
+  text-align: center;
+}
+#heroimage h1 {
+  margin:0px;
+  font-size: 4em;
+  padding-top: 20%;
+}
+#heroimage p {
+  font-size: 1em;
+}
 
+/*-----Live Stream Div-----*/
+#livestream {
+  padding: 3% 0;
+  background-color: black;
+  color: white;
+}
+
+/*-----Falcon Facts Div-----*/
+#facts {
+  width:100%;
+  height: 400px;
+  background: white url('./images/falcon2-free.jpg') no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*-----WingSpan Div-----*/
+#wingSpan{
+  width:100%;
+  height: 600px;
+  background: white url('./images/FalWingSpan.png') no-repeat center;
+  background-size: contain;
+  color: #E9AB17;
+}
+
+/*-----Falcons v. Hawks Div-----*/
 .falVHaw {
   width: 20%;
   height: 20%;
