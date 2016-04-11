@@ -80,32 +80,12 @@ h2, p {
 }
 
 /*-----Live Stream Div-----*/
-#livestream {
-  padding: 3% 0;
-  background-color: black;
-  color: white;
-}
+
 
 /*-----Falcon Facts Div-----*/
-#facts {
-  width:100%;
-  height: 400px;
-  background: white url('./images/falcon2-free.jpg') no-repeat top center;
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 
 /*-----WingSpan Div-----*/
-#wingSpan{
-  width:100%;
-  height: 600px;
-  background: white url('./images/FalWingSpan.png') no-repeat center;
-  background-size: contain;
-  color: #E9AB17;
-}
+
 
 /*-----Falcons v. Hawks Div-----*/
-.falVHaw {
-  width: 20%;
-  height: 20%;
-}
