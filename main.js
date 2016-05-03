@@ -4,10 +4,10 @@ $(function() {
 
   function init() {
     fullscreen();
+    liveCount();
 
     $(window).resize(function(){
       fullscreen();
-      liveCount();
     });
   }
 
@@ -24,7 +24,7 @@ $(function() {
       xhr.onload = function (e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
-            document.getElementById("viewCount").innerHTML = xhr.responseText;
+            document.getElementById("liveViewersLine").innerHTML = "Live Viewer Count: " + "<strong>" + xhr.responseText + "</strong>";
             console.log(xhr.responseText);
           } else {
             document.getElementById("liveViewersLine").innerHTML = ""
@@ -38,6 +38,5 @@ $(function() {
       };
       xhr.send(null);
   }
-
 
 });

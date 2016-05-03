@@ -103,6 +103,10 @@ strong {
   color: white;
 }
 
+#liveViewersLine strong{
+  display: block;
+  font-size: 2em;
+}
 /*-----Falcon Facts Div-----*/
 #facts {
   width:100%;
