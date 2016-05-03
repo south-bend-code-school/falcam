@@ -190,11 +190,59 @@ strong {
 }
 
 @media only screen and (max-width: 600px) {
+
+  #heroimage h1 {
+    font-size: 2em;
+    padding-top: 0;
+  }
+
+  #heroimage h2 {
+    font-size: 1em;
+  }
+
   #speed p {
     font-size: 1.2em;
+  }
+
+  #wingSpan {
+    height: 400px;
+    background-position: 0 10em;
+  }
+
+  #eye {
+    height: 225px;
   }
 
   #eye p {
     font-size: 1.2em;
   }
+
+  #versus h1 {
+    font-size: 1.5em;
+  }
+
+  #versus p {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #heroimage {
+      background-size: cover;
+    }
+
+    #heroimage h1 {
+      font-size: 3em;
+      padding-top: 90%;
+    }
+
+    #heroimage h2 {
+      font-size: 1em;
+    }
+
+    iframe {
+      height: 400px;
+    }
 }
