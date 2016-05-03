@@ -158,3 +158,39 @@ strong {
   width: 50%;
   height: 50%;
 }
+
+
+
+/*-----Media Queries-----*/
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  #heroimage h1 {
+    margin:0px;
+    font-size: 5em;
+    padding-top: 50%;
+  }
+
+  #speed p {
+    font-size: 1.5em;
+  }
+
+  #eye p {
+    font-size: 1.5em;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  #speed p {
+    font-size: 1.2em;
+  }
+
+  #eye p {
+    font-size: 1.2em;
+  }
+}
