@@ -17,12 +17,19 @@
 /*---General Body Stylings---*/
 body {
   margin: 0px;
+  width: 100%;
+  height: 100%;
 }
 h1 {
   font-family: 'Playfair Display SC', serif;
 }
 h2, p {
   font-family: 'Playfair Display', serif;
+}
+
+strong {
+  color: white;
+  font-size: 1.5em;
 }
 
 .content {
@@ -59,22 +66,32 @@ h2, p {
   background-color: #E9AB17;
   color:white;
 }
+.gray {
+  background-color: lightgray;
+  color:black;
+}
 
 /*-----Main Image Div-----*/
 #heroimage {
-  background-image: url("./images/falcon1-free.jpg");
+  background-image: url("./images/falcon2-free.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top center;
+  background-position: 30% 30%;
   height: 600px;
   color:white;
   text-align: center;
 }
 #heroimage h1 {
   margin:0px;
-  font-size: 4em;
-  padding-top: 20%;
+  font-size: 5em;
+  padding-top: 30%;
 }
+
+#heroimage h2 {
+  width: 80%;
+  margin: 0 10%;
+}
+
 #heroimage p {
   font-size: 1em;
 }
@@ -94,12 +111,40 @@ h2, p {
   background-size: cover;
   background-attachment: fixed;
 }
+#speed {
+  background: linear-gradient(rgba(233, 171, 23, .5),rgba(233, 171, 23, 1)), url("./images/falcononinair.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 30% 30%;
+  height: 200px;
+  color:white;
+  text-align: center;
+  color: black;
+}
+#speed p {
+  font-size: 2em;
+}
+#eye {  background: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, 1)), url("./images/membrane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 30% 30%;
+  height: 200px;
+  color:white;
+  text-align: center;
+  color: white;
+}
+#eye p {
+  font-size: 2em;
+}
+
 
 /*-----WingSpan Div-----*/
 #wingSpan{
   width:100%;
   height: 600px;
-  background: white url('./images/FalWingSpan.png') no-repeat center;
+  background:url('./images/FalWingSpan.png') no-repeat center;
   background-size: contain;
   color: #E9AB17;
 }
@@ -108,4 +153,8 @@ h2, p {
 .falVHaw {
   width: 20%;
   height: 20%;
+}
+#venn {
+  width: 50%;
+  height: 50%;
 }

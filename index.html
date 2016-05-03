@@ -2,47 +2,64 @@
 <html>
   <head>
     <link rel="stylesheet" href="./styles.css">
+    <script src='http://code.jquery.com/jquery-2.0.3.min.js'></script>
+    <script src='./main.js'></script>
     <title>Peregrine Falcons | City of South Bend</title>
   </head>
   <body>
     <!--hero image-->
     <div id="heroimage">
       <h1>South Bend FalCam</h1>
+      <h2>An entertanining and informative site about South Bend's
+        top predator, the peregrine falcon. This site details the
+        how and why the conservation of falcons is important.</h2>
     </div>
 
     <!--livestream-->
     <div id="livestream" class="content white">
-      <h2>Here is some information about the falcam or falcons in the city of SB...</h2>
-      <iframe width="1280" height="720" src="https://www.youtube.com/embed/sKZrdEWYYzk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+      <iframe width="100%" height="720" src="https://www.youtube.com/embed/sKZrdEWYYzk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+      <h3 id="liveViewersLine">Live Viewers: <span id="viewCount"></span></h3>
+    </div>
+
+    <!--Timeline-->
+    <div id="timeline" class="content white">
+      <h1>Timeline</h1>
+      <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1zqp_OWolVC5gPSc--DeXDgd8uc3DUKNm84yjh-_nI3I&font=Playfair&lang=en&start_at_end=true&initial_zoom=0&height=500' width='100%' height='500' frameborder='0'></iframe>
     </div>
 
     <!--Falcon Facts-->
-    <div id="facts" class="content blue">
-      <h1>Falcon Facts</h1>
-      <p>Fact 1</p>
-      <p>Fact 2</p>
-      <p>Fact 3</p>
+    <div id="speed" class="content">
+      <h1>Falcon Fast</h1>
+      <p>The highest recorded speed of a peregrine falcon is <strong>242 mph</strong>,
+        which is faster than the average speed of a car racing in the
+        Indy 500.</p>
     </div>
 
     <!--Falcon Wing Span-->
     <div id="wingSpan" class="content white">
-      <h1>Wingspan</h1>
-      <h1>3.3ft</h1>
+      <h1>Average Wingspan</h1>
+      <h1>3.3 - 3.6 ft</h1>
     </div>
+
+    <div id="eye" class="content">
+      <h1>Nictating Membrane</h1>
+      <p>A nictating membrane
+         is a translucent membrane that forms an inner eyelid in birds,
+          reptiles, and some mammals.</p>
+    </div>
+
+
 
     <!--Falcon vs. Hawks-->
     <div class="content yellow">
-      <h1>Falcon vs. Hawks</h1>
+      <h1>Peregrine Falcon vs. Red-tailed Hawk</h1>
+      <p>Both peregrine falcons and red-tailed hawks inhabit South Bend.
+      Here is a diagram on their differences and similarities.</p>
       <img src="./images/falWhite.png" class="falVHaw">
-      <img src="./images/venn.png">
+      <img id="venn" src="./images/venn.png">
       <img src="./images/hawkWhite.png" class="falVHaw">
     </div>
 
-    <!--Timeline-->
-    <div class="content white">
-      <h1>Timeline</h1>
-      <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1zqp_OWolVC5gPSc--DeXDgd8uc3DUKNm84yjh-_nI3I&font=Playfair&lang=en&start_at_end=true&initial_zoom=0&height=500' width='100%' height='500' frameborder='0'></iframe>
-    </div>
 
     <!--Raptor Down Info-->
     <div class="content blue">
