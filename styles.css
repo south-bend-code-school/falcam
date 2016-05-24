@@ -173,6 +173,10 @@ strong {
 
 @media only screen and (max-width: 900px) {
 
+  #heroimage {
+    background-size: cover;
+  }
+
   #heroimage h1 {
     margin:0px;
     font-size: 5em;
@@ -191,9 +195,13 @@ strong {
 
 @media only screen and (max-width: 600px) {
 
+  #heroimage {
+    background-size: cover;
+  }
+
   #heroimage h1 {
     font-size: 2em;
-    padding-top: 0;
+    padding-top: 60%;
   }
 
   #heroimage h2 {
@@ -235,7 +243,7 @@ strong {
 
     #heroimage h1 {
       font-size: 3em;
-      padding-top: 90%;
+      padding-top: 60%;
     }
 
     #heroimage h2 {
