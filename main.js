@@ -3,15 +3,26 @@ $(function() {
   $(document).ready(init);
 
   function init() {
-    fullscreen();
+    if($(window).width() > 900){
+      fullscreen();
+    }
     liveCount();
 
+    // $(window).resize(function(){
+    //   fullscreen();
+    // });
+
     $(window).resize(function(){
-      fullscreen();
+      if($(window).width() > 900){
+        fullscreen();
+      }
     });
+
+
   }
 
   function fullscreen(){
+    alert("screen resize");
     $('#heroimage').css({
       width: $(window).width(),
       height: $(window).height()

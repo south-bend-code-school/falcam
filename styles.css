@@ -129,7 +129,8 @@ strong {
 #speed p {
   font-size: 2em;
 }
-#eye {  background: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, 1)), url("./images/membrane.jpg");
+#eye {
+  background: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, 1)), url("./images/membrane.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -176,6 +177,7 @@ strong {
   #heroimage {
     background-size: cover;
     background-attachment: scroll;
+    height: 700px;
   }
 
   #heroimage h1 {
@@ -184,8 +186,16 @@ strong {
     padding-top: 50%;
   }
 
+  #heroimage h2 {
+    font-size: 0.8em;
+  }
+
   #speed p {
     font-size: 1.5em;
+  }
+
+  #eye {
+    height: 225px;
   }
 
   #eye p {
@@ -205,9 +215,7 @@ strong {
     padding-top: 60%;
   }
 
-  #heroimage h2 {
-    font-size: 1em;
-  }
+
 
   #speed p {
     font-size: 1.2em;
