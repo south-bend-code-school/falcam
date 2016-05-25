@@ -175,6 +175,7 @@ strong {
 
   #heroimage {
     background-size: cover;
+    background-attachment: scroll;
   }
 
   #heroimage h1 {
