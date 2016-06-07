@@ -174,8 +174,8 @@ strong {
 .parent {
  margin-left: auto;
  margin-right: auto;
- width: 100%;
- height: 100%;
+ width: 99%;
+ height: 90%;
  text-align: center;
  border: 4px dotted #ffa64d;
 }
