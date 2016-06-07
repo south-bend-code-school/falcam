@@ -170,14 +170,16 @@ strong {
   height: 50%;
 }
 
+@media only screen and (max-width: 1200px) {
 
 .parent {
  margin-left: auto;
  margin-right: auto;
- width: 99%;
- height: 90%;
  text-align: center;
- border: 4px dotted #ffa64d;
+ /*border: 4px dotted #ffa64d;
+ width: 65%;
+ height: 50%;
+ */
 }
 
 div.img {
@@ -186,13 +188,22 @@ div.img {
 }
 div.desc {
  font-weight: bold;
- font-size: 20px;
+ font-size: 1em;
  font-family: 'Playfair Display SC', serif;
- color: #87AFC7;
+ color: black;
  width: 230px;
- margin: 10px;
+ margin: 6px;
 }
 
+div.desc2 {
+ font-weight: bold;
+ font-size: 1em;
+ font-family: 'Playfair Display SC', serif;
+ color: #ffa64d;
+ width: 230px;
+ margin: 6px;
+}
+}
 /*-----Media Queries-----*/
 
 @media only screen and (max-width: 1200px) {
