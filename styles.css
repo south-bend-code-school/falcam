@@ -170,12 +170,11 @@ strong {
   height: 50%;
 }
 
-@media only screen and (max-width: 1200px) {
-
 .parent {
  margin-left: auto;
  margin-right: auto;
  text-align: center;
+
  /*border: 4px dotted #ffa64d;
  width: 65%;
  height: 50%;
@@ -190,9 +189,8 @@ div.desc {
  font-weight: bold;
  font-size: 1em;
  font-family: 'Playfair Display SC', serif;
- color: black;
- width: 230px;
- margin: 6px;
+ color: #87AFC7;
+ margin: 1px;
 }
 
 div.desc2 {
@@ -200,10 +198,9 @@ div.desc2 {
  font-size: 1em;
  font-family: 'Playfair Display SC', serif;
  color: #ffa64d;
- width: 230px;
- margin: 6px;
+ margin: 1px;
 }
-}
+
 /*-----Media Queries-----*/
 
 @media only screen and (max-width: 1200px) {
